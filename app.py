@@ -27,6 +27,14 @@ while True:
       feelings_list.append("stuck")
       encouragement_list.append("go out for some sunshine")
       counter += 1
+    if each_word == "happy":
+      feelings_list.append("happy")
+      encouragement_list.append("to keep smiling")
+      counter += 1
+    if each_word == "upset":
+      feelings_list.append("upset")
+      encouragement_list.append("others care about you too")
+      counter += 1      
       
   if counter == 0:
     
@@ -53,3 +61,4 @@ while True:
   print()
   print(output)
   print()
+
