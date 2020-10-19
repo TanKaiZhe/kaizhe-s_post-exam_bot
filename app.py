@@ -34,7 +34,8 @@ while True:
     if each_word == "upset":
       feelings_list.append("upset")
       encouragement_list.append("others care about you too")
-      counter += 1      
+      counter += 1    
+      #is it possible for you to input more values
       
   if counter == 0:
     
